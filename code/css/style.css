@@ -7,9 +7,11 @@
 
 /* clear fix hack */
 .clearfix:after {
-  content: "";
-  display: table;
+  content: ".";
+  display: block;
   clear: both;
+  line-height: 0;
+  height: 0;
 }
 
 .clear {
@@ -24,12 +26,76 @@
   float: right;
 }
 
-/* base styles */
+/******************************************
+/* BASE STYLES
+/*******************************************/
 
 /* lyout */
-#container {
+.container {
   width: 960px;
-  margin: auto;
+  margin: 0 auto;
 }
 
-/* additional styles */
+body {
+  color: ;
+  background: #27EEFF;
+  font-family:;
+  font-size:;
+  font-weight:;
+  line-height:;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+.container {
+  width:;
+  margin: 0 auto;
+}
+
+header {
+  padding: 25px 0;
+  overflow:hidden;
+  background:#B8ccc8;
+}
+
+header nav {
+  float: right;
+  margin-top: 15px;
+}
+
+header nav ul li {
+  display: inline-block;
+  margin: 0 0 0 40px;
+  font-size:;
+}
+
+header nav ul li a {
+  color:;
+}
+
+.button {
+  border-radius: 5px;
+  font-weight:;
+  padding:12px 0;
+  width: 280px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+
+footer {
+  background:#3D3B35;
+  padding: 65px 0 45px;
+  text-align: center;
+}
+
+footer ul li{
+  display: inline-block;
+  list-style: none;
+  margin: 0 26px 75px;
+}
+
+.hide {
+  display: none;
+}
