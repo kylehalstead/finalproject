@@ -70,6 +70,31 @@ header nav ul li a {
   color:;
 }
 
+#main {
+
+}
+
+#landing {
+  display: inline-block;
+  vertical-align: top;
+}
+
+#story {
+
+}
+
+#products {
+
+}
+
+#follow_us {
+
+}
+
+#contact {
+
+}
+
 .button {
   border-radius: 5px;
   font-weight:;
