@@ -80,15 +80,18 @@ header nav ul li a {
 }
 
 #story {
-
+  display: inline-block;
+  vertical-align: top;
 }
 
 #products {
-
+  display: inline-block;
+  vertical-align: top;
 }
 
 #follow_us {
-
+  display: inline-block;
+  vertical-align: top;
 }
 
 #contact {
