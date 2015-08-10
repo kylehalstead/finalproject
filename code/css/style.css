@@ -168,12 +168,17 @@ border-bottom: 2px black solid;
 
 .button {
   border-radius: 5px;
-  font-weight:;
+  font-weight:600;
   padding:12px 0;
-  width: 280px;
+  width: 75px;
   text-align: center;
-  display: block;
+  display:inline-block;
   margin: 0 auto;
+}
+
+.brown {
+  background-color: #994A00;
+  color: #93EDB5;
 }
 
 footer {
