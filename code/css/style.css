@@ -84,21 +84,67 @@ header nav ul li a {
 height: 100%;
 position: relative;
 width: 100%;
+border-bottom: 2px black solid;
 }
 
 #story {
   display: inline-block;
   vertical-align: top;
+  wisth: 100%;
+  border-bottom: 2px black solid;
 }
 
 #products {
   display: inline-block;
   vertical-align: top;
+  width:100%;
+  border-bottom: 2px black solid;
 }
+
+.eight_colums{
+
+}
+
+.one-forth{
+  float:left;
+  display:inline-block;
+  padding-left: 10px;
+  margin-bottom: 10px;
+  width:25%;
+
+
+}
+
 
 #follow_us {
   display: inline-block;
   vertical-align: top;
+  width:100%;
+  border-bottom: 2px black solid;
+}
+
+.six_columns{
+
+}
+
+.one-third {
+  float:left;
+  display: inline-block;
+  margin-left: 10px;
+  width:30%;
+}
+
+.alpha {
+  clear:left;
+}
+
+.omega {
+  clear: right;
+}
+
+.thumbnail {
+  position:relative;
+  text-align: center;
 }
 
 #contact {
