@@ -45,6 +45,10 @@ body {
   line-height:;
 }
 
+a {
+  text-decoration: none;
+}
+
 /******************************************
 /* LAYOUT
 /*******************************************/
@@ -63,11 +67,17 @@ header nav {
 header nav ul li {
   display: inline-block;
   margin: 0 0 0 40px;
-  font-size:;
+  font-weight: 900;
+  font-size:30px;
 }
 
 header nav ul li a {
-  color:;
+  color:#994A00;
+}
+
+header .logo p {
+  font-size: 30px;
+  color: #2E2B28;
 }
 
 #main {
