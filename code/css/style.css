@@ -38,8 +38,8 @@
 
 body {
   color: ;
-  background: #27EEFF;
-  font-family:;
+  background: #A5B8A7;
+  font-family: Amatic SC;
   font-size:;
   font-weight:;
   line-height:;
@@ -52,7 +52,7 @@ body {
 header {
   padding: 25px 0;
   overflow:hidden;
-  background:#B8ccc8;
+  background:#ED5A36;
 }
 
 header nav {
@@ -77,6 +77,13 @@ header nav ul li a {
 #landing {
   display: inline-block;
   vertical-align: top;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  background: url("images/whaleSample.png") no-repeat scroll center center;
+height: 100%;
+position: relative;
+width: 100%;
 }
 
 #story {
@@ -98,6 +105,11 @@ header nav ul li a {
 
 }
 
+.whaleLogo {
+ height:auto;
+ width:50%;
+}
+
 .button {
   border-radius: 5px;
   font-weight:;
@@ -109,7 +121,7 @@ header nav ul li a {
 }
 
 footer {
-  background:#3D3B35;
+  background:#2E2B28;
   padding: 65px 0 45px;
   text-align: center;
 }
