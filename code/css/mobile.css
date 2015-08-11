@@ -3,6 +3,19 @@
   width:100%;
 }
 
+header nav ul li {
+  display: none;
+}
+
+#mobileNav {
+  display:inline-block;
+  width:100%;
+}
+
 #follow_us {
   display: none;
+}
+
+.one-forth {
+  width:50%;
 }

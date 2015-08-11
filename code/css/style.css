@@ -32,13 +32,14 @@
 
 /* lyout */
 .container {
-  width: 960px;
+  max-width: 960px;
+  width:100%;
   margin: 0 auto;
 }
 
 body {
   color: ;
-  background: #A5B8A7;
+  background: #E8E8E7;
   font-family: Amatic SC;
   font-size:;
   font-weight:;
@@ -56,7 +57,7 @@ a {
 header {
   padding: 25px 0;
   overflow:hidden;
-  background:#ED5A36;
+  background:#FF513D;
 }
 
 header nav {
@@ -72,12 +73,16 @@ header nav ul li {
 }
 
 header nav ul li a {
-  color:#994A00;
+  color:#66360A;
 }
 
 header .logo p {
   font-size: 30px;
-  color: #2E2B28;
+  color: #3D3D3D;
+}
+
+#mobileNav {
+  display: none;
 }
 
 #main {
@@ -191,6 +196,10 @@ footer ul li{
   display: inline-block;
   list-style: none;
   margin: 0 26px 75px;
+}
+
+footer a {
+  color: #92FEFF;
 }
 
 .hide {
