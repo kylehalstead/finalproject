@@ -1,15 +1,24 @@
 
 .container {
   width:100%;
+  margin: 0 auto;
 }
 
-header nav ul li {
+
+.desktopNav ul li a {
   display: none;
+  margin: auto;
+}
+
+.desktopNav .mobileMenu {
+  display:inline-block;
+  width:100%;
 }
 
 #mobileNav {
-  display:inline-block;
-  width:100%;
+  position:absolute;
+  display: none;
+  font-size: 40px;
 }
 
 #follow_us {
