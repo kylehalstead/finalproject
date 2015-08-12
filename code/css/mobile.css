@@ -16,8 +16,10 @@
 }
 
 #mobileNav {
-  position:absolute;
+  float:right;
+  position:inherit;
   display: none;
+  box-shadow: 0 0 5px black;
   font-size: 40px;
 }
 
