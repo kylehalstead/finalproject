@@ -37,6 +37,12 @@
   margin: 0 auto;
 }
 
+.headercontainer {
+  max-width: 960px;
+  width:100%;
+  margin: 0 auto;
+}
+
 body {
   color: ;
   background: #E8E8E7;

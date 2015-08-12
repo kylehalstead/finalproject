@@ -4,6 +4,16 @@
   margin: 0 auto;
 }
 
+.headercontainer {
+  text-align: center;
+  margin: 0 auto:
+
+}
+
+.desktopNav {
+  display: none;
+}
+
 
 .desktopNav ul li a {
   display: none;
@@ -13,7 +23,16 @@
 .mobileMenu {
   display:inline-block;
   text-align: center;
-  width:100%;
+
+}
+
+.mobileMenu span {
+  display: block;
+  text-align: center;
+  width: 20px;
+  height: 3px;
+  margin: 4px 0;
+  background: black;
 }
 
 #mobileNav {
