@@ -1,9 +1,32 @@
 $(document).ready(function() {
   //alert("hello")
+  var isMenuOpen = false;
+
+  function hideMenu() {
+    isMenuOpen = false
+    $("#mobileNav").fadeOut();
+  }
+
+  function showMenu() {
+    isMenuOpen = true
+    $("#mobileNav").fadeIn();
+  }
+
+  function toggleMenu() {
+    //alert("toggle")
+    if (isMenuOpen) {
+      hideMenu();
+    } else {
+      showMenu();
+    }
+  }
+
+  $(".mobileMenu").click(toggleMenu)
+
 });
 
 
-/* action I do want.
+/* action I  want.
 (read more to expand "story" section)
 icon to inlarge slightly on hover
 main nav header to change colors when scrolling and stick at top for whole page
