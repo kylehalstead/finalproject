@@ -81,7 +81,7 @@ header .logo p {
   color: #3D3D3D;
 }
 
-.desktopNav .mobileMenu {
+.mobileMenu {
   display:none;
 }
 
@@ -197,9 +197,14 @@ header .logo p {
   margin: 0 auto;
 }
 
+.button:hover {
+  color: #3D3D3D;
+  box-shadow: 1px 1px 1px #3D3D3D;
+}
+
 .brown {
-  background-color: #994A00;
-  color: #93EDB5;
+  background-color: #FF513D;
+  color: #E8E8E7;
 }
 
 footer {

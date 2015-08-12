@@ -10,13 +10,14 @@
   margin: auto;
 }
 
-.desktopNav .mobileMenu {
+.mobileMenu {
   display:inline-block;
+  text-align: center;
   width:100%;
 }
 
 #mobileNav {
-  float:right;
+  width: 100%;
   position:inherit;
   display: none;
   box-shadow: 0 0 5px black;
