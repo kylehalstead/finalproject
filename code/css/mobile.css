@@ -21,6 +21,10 @@
   font-size: 40px;
 }
 
+#landing {
+  background-size: 80% auto;
+}
+
 #follow_us {
   display: none;
 }
