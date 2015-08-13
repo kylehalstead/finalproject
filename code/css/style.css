@@ -80,6 +80,11 @@ header nav ul li {
 
 header nav ul li a {
   color:#66360A;
+  transition: all .5s ease-in-out;
+}
+
+header nav ul li a:hover {
+transform: scale(1.1);
 }
 
 header .logo p {
@@ -129,6 +134,13 @@ header .logo p {
   font-family: "Open Sans Condensed", sans-serif;
   font-weight: 300;
   border-bottom: 2px black solid;
+  margin: 0 auto;
+}
+
+.story_text {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 600px;
 }
 
 #products {
@@ -152,6 +164,15 @@ header .logo p {
 
 }
 
+#howmade {
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-weight: 300;
+  border-bottom: 2px black solid;
+  margin: 0 auto;
+}
 
 #follow_us {
   display: inline-block;

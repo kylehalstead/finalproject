@@ -4,12 +4,12 @@ $(document).ready(function() {
 
   function hideMenu() {
     isMenuOpen = false
-    $("#mobileNav").fadeOut();
+    $(".desktopNav").fadeOut();
   }
 
   function showMenu() {
     isMenuOpen = true
-    $("#mobileNav").fadeIn();
+    $(".desktopNav").fadeIn();
   }
 
   function toggleMenu() {

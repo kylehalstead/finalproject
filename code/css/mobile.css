@@ -12,12 +12,24 @@
 
 .desktopNav {
   display: none;
+  width: 100%;
+  margin: 0 auto;
+}
+
+header nav ul li {
+  float:none;
+  display: block;
+  margin: 0 auto;
 }
 
 
 .desktopNav ul li a {
-  display: none;
-  margin: auto;
+  transition: all .5s ease-in-out;
+  display: block;
+}
+
+.desktopNav ul li a:hover {
+  transform: scale(1.1);
 }
 
 .mobileMenu {
@@ -32,7 +44,7 @@
   width: 20px;
   height: 3px;
   margin: 4px 0;
-  background: black;
+  background: #E8E8E7;
 }
 
 #mobileNav {
@@ -46,6 +58,7 @@
 #landing {
   background-size: 80% auto;
 }
+
 
 #follow_us {
   display: none;
