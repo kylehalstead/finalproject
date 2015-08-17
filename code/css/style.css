@@ -110,7 +110,6 @@ header .logo p {
   vertical-align: top;
   text-align: center;
   height: 500px;
-  position: relative;
   width: 100%;
   border-bottom: 2px black solid;
   background: url("../images/whaleSample.png") no-repeat center;
@@ -210,8 +209,7 @@ header .logo p {
 }
 
 .whaleLogo {
- height:auto;
- width:50%;
+   width:50%;
 }
 
 .button {
