@@ -232,6 +232,11 @@ header .logo p {
   color: #E8E8E7;
 }
 
+footer .logo {
+  font-size: 30px;
+  color: #E8E8E7;
+}
+
 footer {
   background:#2E2B28;
   padding: 65px 0 45px;
