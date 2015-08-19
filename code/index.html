@@ -3,39 +3,66 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <meta name="description" content="This is a boilerplate for building websites"/>
+    <meta name="beached whale" content="beached whale adventure apparel and knickknacks"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Trad Is Rad</title>
-    <link href='http://fonts.googleapis.com/css?family=Amatic+SC' rel='stylesheet' type='text/css'>
+
+  <!--- FONTS -------------------->
+    <link href="http://fonts.googleapis.com/css?family=Amatic+SC:400,700" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700" rel="stylesheet" type="text/css">
+  <!--- stylesheets--------------------->
     <link rel="stylesheet" href="css/reset.css" type="text.css" />
+
     <link rel="stylesheet" href="css/style.css" type="text/css"/>
+
+    <link rel="stylesheet" media="only screen and (max-width: 600px)" href="css/mobile.css" type="text/css"/>
+
     <!-- adding google fonts <script src="url"></script> -->
   </head>
 
   <body>
     <header>
-      <div class="container">
+      <div class="headercontainer">
         <div class="logo">
           <p>BEACHED WHALE</p>
-          <p>ADVENTURE APPAREL &amp KNICKKNACKS</p>
+          <p>ADVENTURE APPAREL &amp; KNICKKNACKS</p>
         </div>
-        <nav>
+        <a class="mobileMenu" href="#">
+          <span></span>
+          <span></span>
+          <span></span>
+        </a>
+        <nav class="desktopNav">
           <ul>
             <li><a href="#">The Story</a></li>
             <li><a href="#">Products</a></li>
             <li><a href="#">Follow Us</a></li>
             <li><a href="#">Contact</a></li>
             <li><a href="#">Cart</a></li>
+            <!-- add two spans, one text and one image-->
+            <!-- mobile menu stuck floated right <li><a class="mobileMenu" href="#"><h1>menu</h1></a></li> -->
           </ul>
         </nav>
-      </div> <!-- container -->
+        <a class="mobileMenu" href="#">
+
+        <nav id="mobileNav">
+          <ul>
+            <li><a href="#">one</a></li>
+            <li><a href="#">two</a></li>
+            <li><a href="#">three</a></li>
+          </ul>
+        </nav>
+      </div> <!-- headercontainer -->
     </header>
     <section id="main">
       <div class="container">
 
         <div id="landing">
           <h1 class="logo">BEACHED WHALE</h1>
+          <!-- <div id="whaleLogologo"><img src="images/whaleSample.png" /></div> this works -->
           <!--<img class="whaleLogo" src="images/whaleSample.png" alt="Company Logo">-->
-          <h2 class="subLogo">ADVENTURE APPAREL &amp KNICKKNACKS</h2>
+          <h2 class="subLogo">ADVENTURE APPAREL &amp; KNICKKNACKS</h2>
+        <!-- can't get background image  <div class="clear"></div>-->
         </div> <!-- #landing-->
 
         <div id="story">
@@ -51,85 +78,106 @@
 					</article>
         </div><!--#story-->
         <div id="products">
-          <div class="eight_colums">
+          <div class="eight_colums clearfix">
             <div class="one-forth column alpha thumbnail"><img src="http://placehold.it/150x150">
-              <a href="url" title="">
+              <a href="#" title="">
                 <h4>sticker 1</h4>
                 <p>$price</p>
               </a>
               <a class="button brown" href="#">Add To Cart</a>
             </div>
             <div class="one-forth column thumbnail"><img src="http://placehold.it/150x150">
-              <a href="url" title="">
+              <a href="#" title="">
                 <h4>sticker 2</h4>
                 <p>$price</p>
               </a>
+              <a class="button brown" href="#">Add To Cart</a>
             </div>
             <div class="one-forth column thumbnail"><img src="http://placehold.it/150x150">
-              <a href="url" title="">
+              <a href="#" title="">
                 <h4>sticker 3</h4>
                 <p>$price</p>
               </a>
+              <a class="button brown" href="#">Add To Cart</a>
             </div>
             <div class="one-forth column omega thumbnail"><img src="http://placehold.it/150x150">
-              <a href="url" title="">
+              <a href="#" title="">
                 <h4>sticker 4</h4>
                 <p>$price</p>
               </a>
+              <a class="button brown" href="#">Add To Cart</a>
             </div>
             <div class="one-forth column alpha thumbnail"><img src="http://placehold.it/150x150">
-              <a href="url" title="">
+              <a href="#" title="">
                 <h4>Shirt 1</h4>
               </a>
+              <a class="button brown" href="#">Add To Cart</a>
             </div>
             <div class="one-forth column thumbnail"><img src="http://placehold.it/150x150">
-              <a href="url" title="">
+              <a href="#" title="">
                 <h4>Shirt 2</h4>
               </a>
+              <a class="button brown" href="#">Add To Cart</a>
             </div>
             <div class="one-forth column thumbnail"><img src="http://placehold.it/150x150">
-              <a href="url" title="">
+              <a href="#" title="">
                 <h4>Shirt 3</h4>
               </a>
+              <a class="button brown" href="#">Add To Cart</a>
             </div>
             <div class="one-forth column omega thumbnail"><img src="http://placehold.it/150x150">
-              <a href="url" title="">
+              <a href="#" title="">
                 <h4>Shirt 4</h4>
               </a>
+              <a class="button brown" href="#">Add To Cart</a>
             </div>
             <div class="clear"></div>
           </div> <!--eight_colums-->
         </div> <!--#products-->
 
-        <div id="follow_us clear">
+        <div id="black_overlay">
+          <div class="openbox">
+            <a class="button round black" href="#">X</a>
+            <h5 class="clear">Product Name</h5>
+            <img src="http://placehold.it/400x400">
+            <a class="button brown button_block" href="#">Add To Cart</a>
+          </div>
+        </div>
+
+        <div id="howmade">
+          <article class="howmade_text">
+          </article>
+        </div> <!-- #howmade  -->
+
+        <div id="follow_us">
           <div class="six_colums">
             <div class="one-third column alpha thumbnail"><img src="http://placehold.it/200x200">
-              <a href="url" title="">
+              <a href="#" title="">
                 <p>instagram</p>
               </a>
             </div>
             <div class="one-third column thumbnail"><img src="http://placehold.it/200x200">
-              <a href="url" title="">
+              <a href="#" title="">
                 <p>instagram</p>
               </a>
             </div>
             <div class="one-third column omega thumbnail"><img src="http://placehold.it/200x200">
-              <a href="url" title="">
+              <a href="#" title="">
                 <p>instagram</p>
               </a>
             </div>
             <div class="one-third column alpha thumbnail"><img src="http://placehold.it/200x200">
-              <a href="url" title="">
+              <a href="#" title="">
                 <p>instagram</p>
               </a>
             </div>
             <div class="one-third column thumbnail"><img src="http://placehold.it/200x200">
-              <a href="url" title="">
+              <a href="#" title="">
                 <p>instagram</p>
               </a>
             </div>
             <div class="one-third column omega thumbnail"><img src="http://placehold.it/200x200">
-              <a href="url" title="">
+              <a href="#" title="">
                 <p>instagram</p>
               </a>
             </div>
@@ -141,15 +189,16 @@
       </div> <!-- container -->
     </section> <!-- main -->
 
-    <!------------ FOOTER ------------->
+    <!-- FOOTER -->
     <footer>
 
-      <div class="logo">Sweaty Palm Stickers</div>
+      <div class="logo">Beached Whale</div>
       <ul>
         <li><a href="#">tweet<img src="images/twitter.png" alt="Twitter logo"></a></li>
         <li><a href="#"><img src="images/facebook.png" alt="Facebook logo"></a></li>
       </ul>
     </footer>
+
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
