@@ -161,7 +161,7 @@ header .logo p {
   height: 100%;
   background: rgba(0,0,0,.7);
   z-index: 1000;
-  display: none;
+  display:
 }
 
 .openbox {
@@ -171,6 +171,23 @@ header .logo p {
   width:90%;
   height:90%;
   background-color: #E8E8E7;
+  text-align: center;
+}
+
+.openbox h5 {
+  display: block;
+  font-size: 50px;
+}
+
+.openbox img {
+  max-width: 500px;
+  max-height: 500px;
+  width: 50%;
+  height: 50%;
+}
+
+.openbox .round {
+  float: right;
 }
 
 .one-forth{
@@ -258,6 +275,10 @@ header .logo p {
 
 .round {
   border-radius: 50%;
+}
+
+.button_block {
+  display: block;
 }
 
 footer .logo {
