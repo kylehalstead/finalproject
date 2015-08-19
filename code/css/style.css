@@ -66,6 +66,7 @@ header {
   background:#FF513D;
 }
 
+
 header nav {
   float: right;
   margin-top: 15px;
@@ -161,7 +162,7 @@ header .logo p {
   height: 100%;
   background: rgba(0,0,0,.7);
   z-index: 1000;
-  display:
+  display: none;
 }
 
 .openbox {
