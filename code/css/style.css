@@ -162,7 +162,7 @@ header .logo p {
   height: 100%;
   background: rgba(0,0,0,.7);
   z-index: 1000;
-  display;
+  display: none;
 }
 
 .openbox {
@@ -177,39 +177,38 @@ header .logo p {
 }
 
 .open-box-form {
-
+  padding-top: 25px;
+  border: 5px solid #92FEFF;
   position: fixed;
   top: 15%;
   left: 15%;
   width:70%;
   height:70%;
   background-color: #E8E8E7;
-  text-align: center;
+  text-align: left;
 }
 
 h5 {
+  text-align: center;
   display: block;
   font-size: 50px;
 }
 
-.open-box-form {
-  padding-top: 25px;
-  border: 5px solid #92FEFF;
-}
-
 form {
+  padding-top: 25px;
   padding-top: 25px;
   line-height: 1.5;
 }
 
 ::-webkit-input-placeholder {
-    color: blue;
+    color: black;
 }
 
 input {
   display:;
   border:2px solid #92FEFF;
   width: 200px;
+  height: 40px;
 }
 
 .openbox img {
@@ -282,8 +281,11 @@ label {
   text-align: center;
 }
 
-#contact {
-
+#signup {
+  display: inline-block;
+  vertical-align: top;
+  width:100%;
+  border-bottom: 2px black solid;
 }
 
 .whaleLogo {
@@ -321,6 +323,15 @@ label {
 
 .button_block {
   display: block;
+}
+
+.exit {
+  float: right;
+  font-size: 50px;
+  margin-right: 20px;
+  display: block;
+  border-radius: 50%;
+  color: #3D3D3D;
 }
 
 footer .logo {
