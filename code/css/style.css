@@ -283,9 +283,22 @@ label {
 
 #signup {
   display: inline-block;
+  margin: 0 auto;
   vertical-align: top;
   width:100%;
   border-bottom: 2px black solid;
+}
+
+.twothird-container {
+  background-color: white;
+  float:left;
+  width: 75%;
+}
+
+.quarter-container {
+  background-color: grey;
+  float: left;
+  width: 25%;
 }
 
 .whaleLogo {
@@ -323,6 +336,10 @@ label {
 
 .button_block {
   display: block;
+}
+
+.signup-button {
+
 }
 
 .exit {
