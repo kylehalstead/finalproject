@@ -31,15 +31,29 @@ $(document).ready(function() {
     });
   }*/
 
+var isBoxOpen = false
   function expandWindow() {
     //alert("lightbox");
     event.preventDefault()
-    $("#black_overlay").show();
+    $("#black_overlay_product").show();
+    isBoxOpen = true;
+    console.log(isBoxOpen);
   }
+
+function closeWindow() {
+  console.log("yay")
+  if (isBoxOpen = true) {
+    $("#black_overlay_product").hide();
+  }
+  isBoxOpen=false
+}
+
 
   $(".mobileMenu").click(toggleMenu)
 //  $(".the-story").click(storyScroll)
   $(".expand-window").click(expandWindow)
+  $(".button-exit").click(closeWindow)
+
 
 
 });
