@@ -269,13 +269,13 @@ label {
   width:30%;
 }
 
-.alpha {
+/*.alpha {
   clear:left;
 }
 
 .omega {
   clear: right;
-}
+}*/
 
 .thumbnail {
   text-align: center;
@@ -349,6 +349,15 @@ label {
   display: block;
   border-radius: 50%;
   color: #3D3D3D;
+}
+
+#banner {
+  text-align: center;
+}
+
+h2 img {
+  max-width: 50px;
+  width: 10%;
 }
 
 footer .logo {

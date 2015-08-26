@@ -21,7 +21,26 @@ $(document).ready(function() {
     }
   }
 
+
+  /*function storyScroll() {
+    $("#story").velocity({scrollTop:500}, {
+    easing: easeInQuint;
+    duration: 800,
+    delay: 500
+    }
+    });
+  }*/
+
+  function expandWindow() {
+    //alert("lightbox");
+    event.preventDefault()
+    $("#black_overlay").show();
+  }
+
   $(".mobileMenu").click(toggleMenu)
+//  $(".the-story").click(storyScroll)
+  $(".expand-window").click(expandWindow)
+
 
 });
 
