@@ -48,7 +48,35 @@ function closeWindow() {
   isBoxOpen=false
 }
 
+/*var dn = $('.desktopNav');
+    dns = ".desktopNav-scrolled";
+    hdr = $("header").height();
 
+function navScroll() {
+  if($(this).scrollTop() > hdr) {
+    dn.addClass(dns);
+  } else {
+    dn.removeClass(dns);
+  }
+}
+$(window).scroll(navScroll)
+code pen copy*/
+var dn = $(".desktopNav");
+    dns = ".desktopNav-scrolled";
+    hdr = $('header').height();
+
+function pageScroll() {
+  if ($(this).scrollTop() > hdr) {
+    dn.addClass(dns);
+    document.getElementById('sub-logo').style.display= "block";
+  } else {
+    dn.removeClass(dns);
+    {document.getElementById('sub-logo').style.display = "none"};
+  }
+}
+
+
+  $(window).scroll(pageScroll)
   $(".mobileMenu").click(toggleMenu)
 //  $(".the-story").click(storyScroll)
   $(".expand-window").click(expandWindow)

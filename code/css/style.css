@@ -61,9 +61,45 @@ a {
 /*******************************************/
 
 header {
+  height:150px;
   padding: 25px 0;
   overflow:hidden;
   background:#FF513D;
+  display:
+}
+
+.nav-logo img {
+  margin-left: 5%;
+  width: 65px;
+  float:left;
+}
+
+#sub-logo img{
+  width:35px;
+  margin-left: 35px;
+  float:left;
+}
+header .span {
+  font-size: 1.2rem;
+}
+
+header p {
+  font-size: 3rem;
+  color: #3D3D3D;
+}
+
+.desktopNav-scrolled {
+  top: 0;
+  position:fixed;
+}
+
+.desktopNav {
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background:#FF513D;
+
 }
 
 
@@ -88,14 +124,13 @@ nav ul li a:hover {
 transform: scale(1.1);
 }
 
-header .logo p {
-  font-size: 30px;
-  color: #3D3D3D;
+
+.desktopNav ul {
+  text-align: right;
+  margin-right: 25px;
 }
 
-.head-nav {
 
-}
 
 .mobileMenu {
   display:none;
