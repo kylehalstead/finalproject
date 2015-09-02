@@ -66,6 +66,7 @@ header {
   padding: 25px 0;
   overflow:hidden;
   background:#FF513D;
+  display:
 }
 
 .nav-logo img {
@@ -90,9 +91,10 @@ header p {
   font-size: 3rem;
   color: #3D3D3D;
 }
+
 .desktopNav-scrolled {
   top: 0;
-  position: fixed !important;
+  position:fixed;
 }
 
 body, .desktopNav-scrolled {
@@ -341,13 +343,7 @@ label {
   width:30%;
 }
 
-/*.alpha {
-  clear:left;
-}
 
-.omega {
-  clear: right;
-}*/
 
 .thumbnail {
   text-align: center;
