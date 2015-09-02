@@ -48,6 +48,23 @@ function closeWindow() {
   isBoxOpen=false
 }
 
+var isBoxOpen = false
+  function expandSignUp() {
+    //alert("lightbox");
+    event.preventDefault()
+    $("#black_overlay_signup").show();
+    isBoxOpen = true;
+    console.log(isBoxOpen);
+  }
+
+  function closeSignUp() {
+    console.log("yay")
+    if (isBoxOpen = true) {
+      $("#black_overlay_signup").hide();
+    }
+    isBoxOpen=false
+  }
+
 
 
 var dn = $("#desktopNav");
@@ -84,9 +101,10 @@ function scrollPage () {
   $(window).scroll();
   $(".mobileMenu").click(toggleMenu)
 //  $(".the-story").click(storyScroll)
-  $(".expand-window").click(expandWindow)
+  $(".expand-window").click(expandWindow);
   $(".button-exit").click(closeWindow);
-  //$(".the-story").click(scrollStory);
+  $(".quarter-container").click(expandSignUp);
+  $(".button-exit").click(closeSignUp);
   $(".navLinks a").click(scrollPage);
 
 
