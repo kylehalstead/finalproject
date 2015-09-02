@@ -29,13 +29,21 @@
           <p class="span">ADVENTURE APPAREL &amp; KNICKKNACKS</p>
         </div>
       </div>
+      <div class="mobile-menu-wrapper">
+        <a class="mobileMenu" href="#">
+          <span></span>
+          <span></span>
+          <span></span>
+        </a>
+      </div>
     </header>
-    <nav class="desktopNav">
+
+    <nav id="desktopNav">
       <a href="#" id="sub-logo"><img src="images/whaletail.png" alt="Whale Tail Logo"></a>
-      <ul>
+      <ul class="navLinks">
         <li><a href="#story" class="the-story">The Story</a></li>
-        <li><a href="#">Products</a></li>
-        <li><a href="#">Follow Us</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#follow_us">Follow Us</a></li>
         <li><a href="#">Contact</a></li>
         <li><a href="#">Cart</a></li>
 
@@ -83,18 +91,27 @@
 
         <div id="landing">
           <h1 class="logo">subtitle goes here</h1>
-          <!-- <div id="whaleLogologo"><img src="images/whaleSample.png" /></div> this works -->
-          <!--<img class="whaleLogo" src="images/whaleSample.png" alt="Company Logo">-->
+
           <h2 class="subLogo">ADVENTURE APPAREL &amp; KNICKKNACKS</h2>
-        <!-- can't get background image  <div class="clear"></div>-->
+
         </div> <!-- #landing-->
 
         <div id="story">
           <article class="story_text">
-						<h2><a href="#">As the Story Goes.</a></h2>
-						<img src="url" alt="history pic 1">
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce varius augue nec metus viverra interdum. Sed in gravida lectus. Pellentesque habitant morbi tristique senectus et netu et malesuada fames ac turpis egestas. Mauris ut vulputate nisl.  Maecenas quis auctor dui. Ut porta aliquam lorem, at volutpat orci commodo a. Suspendisse nunc orci, porttitor ac sapien a, rutrum porttitor odio. Phasellus faucibus tristique orci eget dictum. Proin tincidunt vehicula leo sed mattis. Nunc faucibus augue a pellentesque tristique. Proin suscipit in dui ut convallis.</p>
-            <img src="url" alt="history pic 2">
+						<h2 class="section-title">As the Story Goes.</h2>
+
+						<p>Bacon ipsum dolor amet filet mignon venison pork t-bone meatloaf pork chop frankfurter shoulder. Ham hock turkey sausage shankle. Pork bacon meatloaf cupim leberkas biltong. Pastrami short ribs pancetta brisket jowl beef ribs beef boudin ham hock doner fatback t-bone corned beef ball tip. Drumstick bresaola jowl pork chop chuck venison ribeye meatloaf short ribs. Fatback alcatra meatball hamburger doner meatloaf swine porchetta. Boudin fatback andouille filet mignon meatloaf corned beef brisket jowl kielbasa cow hamburger porchetta ham doner ham hock.</p>
+
+            <p>Tenderloin pastrami sirloin, ribeye leberkas pork loin filet mignon shankle chicken capicola doner chuck pancetta beef frankfurter. Drumstick rump bresaola, bacon strip steak swine shankle meatloaf biltong doner pork belly pastrami landjaeger. Tongue alcatra landjaeger, corned beef bresaola hamburger biltong leberkas chuck jerky filet mignon boudin pork chop sausage tenderloin. Prosciutto drumstick shankle, beef tail shank fatback pastrami pork belly tongue. Ribeye porchetta bresaola pig capicola short loin. Short loin turkey chuck jerky ham hock. Corned beef boudin ribeye t-bone tongue short ribs.</p>
+
+            <div class="one-third column alpha thumbnail"><img class="third-story-pic" src="images/america.png">
+            </div>
+            <div class="one-third column thumbnail"><img class="third-story-pic" src="images/vermont.png">
+            </div>
+            <div class="one-third column omega thumbnail"><img class="third-story-pic" src="images/solar.png">
+            </div>
+
+
 
 						<p class="readmore"><a href="#">Read more &gt;</a></p>
 						<p class="hide" id="show-this-on-click">Maecenas quis auctor dui. Ut porta aliquam lorem, at volutpat orci commodo a. Suspendisse nunc orci, porttitor ac sapien a, rutrum porttitor odio. Phasellus faucibus tristique orci eget dictum. Proin tincidunt vehicula leo sed mattis. Nunc faucibus augue a pellentesque tristique. Proin suscipit in dui ut convallis.</p>
@@ -102,6 +119,7 @@
 					</article>
         </div><!--#story-->
         <div id="products">
+          <h2 class="section-title">The Goods</h2>
           <div class="eight_colums clearfix">
             <div class="one-forth column thumbnail"><img src="http://placehold.it/150x150">
               <a href="#" title="">
@@ -200,6 +218,8 @@
         </div> <!-- #howmade  -->
 
         <div id="follow_us">
+          <h2 class="section-title">Follow the leader</h2>
+          <img class="follow-hash" src="images/hashtag.png">
           <div class="six_colums">
             <div class="one-third column alpha thumbnail"><img src="http://placehold.it/200x200">
               <a href="#" title="">
@@ -238,19 +258,21 @@
           <div class="twothird-container">
             <p>Sign up for our email list, its good for you</p>
           </div>
+
           <div class="quarter-container">
-            <a class="button signup-button" href="#">Sign Up</a>
+            <p class="sign-up">Sign Up</p>
           </div>
         </div> <!--#signup-->
+      </div> <!--container-->
         <div id="banner">
           <h2>
             <a href="#" class="top-arrow">
-              <img src="images/toparrow.svg">
+              <img src="images/top.png">
             </a>
           </h2>
           <p>Back to Top</p>
         </div><!--#banner-->
-      </div> <!-- container -->
+
     </section> <!-- main -->
 
     <!-- FOOTER -->
