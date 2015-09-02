@@ -4,12 +4,12 @@ $(document).ready(function() {
 
   function hideMenu() {
     isMenuOpen = false
-    $(".desktopNav").fadeOut();
+    $("#desktopNav").fadeOut();
   }
 
   function showMenu() {
     isMenuOpen = true
-    $(".desktopNav").fadeIn();
+    $("#desktopNav").fadeIn();
   }
 
   function toggleMenu() {
@@ -48,22 +48,11 @@ function closeWindow() {
   isBoxOpen=false
 }
 
-/*var dn = $('.desktopNav');
-    dns = ".desktopNav-scrolled";
-    hdr = $("header").height();
 
-function navScroll() {
-  if($(this).scrollTop() > hdr) {
-    dn.addClass(dns);
-  } else {
-    dn.removeClass(dns);
-  }
-}
-$(window).scroll(navScroll)
-code pen copy*/
-var dn = $(".desktopNav");
-    dns = ".desktopNav-scrolled";
-    hdr = $('header').height();
+
+var dn = $("#desktopNav");
+    dns = "desktopNav-scrolled";
+    hdr = $('header').outerHeight(true);
 
 function pageScroll() {
   if ($(this).scrollTop() > hdr) {
@@ -76,12 +65,29 @@ function pageScroll() {
 }
 
 
+function scrollStory() {
+  $("#story").velocity("scroll", {
+    easing:[400,30]
+  });
+}
+
+
+function scrollPage () {
+    $($(this).attr("href")).velocity("scroll", {
+      easing:[400,60]
+    })
+}
+
+
+
   $(window).scroll(pageScroll)
+  $(window).scroll();
   $(".mobileMenu").click(toggleMenu)
 //  $(".the-story").click(storyScroll)
   $(".expand-window").click(expandWindow)
-  $(".button-exit").click(closeWindow)
-
+  $(".button-exit").click(closeWindow);
+  //$(".the-story").click(scrollStory);
+  $(".navLinks a").click(scrollPage);
 
 
 });
