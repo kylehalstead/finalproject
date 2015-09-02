@@ -114,6 +114,7 @@ function toTopPage () {
   $(".button-exit").click(closeSignUp);
   $(".navLinks a").click(scrollPage);
   $(".top-arrow").click(toTopPage);
+  $("#sub-logo").click(toTopPage);
 
 
 });
