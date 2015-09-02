@@ -357,8 +357,12 @@ label {
   border-bottom: 2px black solid;
 }
 
+.sign-up{
+  
+}
+
 .twothird-container {
-  background-color: white;
+
   float:left;
   width: 75%;
   text-align: center;
@@ -368,7 +372,7 @@ label {
 
 
 .quarter-container {
-  background-color: grey;
+  background-color: #FF513D;
   float: left;
   width: 25%;
   text-align: center;
@@ -442,7 +446,7 @@ footer .logo {
 }
 
 footer {
-  background:#2E2B28;
+  background:#7f7f7f;
   padding: 65px 0 45px;
   text-align: center;
 }

@@ -96,6 +96,13 @@ function scrollPage () {
 }
 
 
+function toTopPage () {
+  //alert("hey hey hey")
+  $("header").velocity("scroll", {
+    easing:[400,60]
+  });
+}
+
 
   $(window).scroll(pageScroll)
   $(window).scroll();
@@ -106,6 +113,7 @@ function scrollPage () {
   $(".quarter-container").click(expandSignUp);
   $(".button-exit").click(closeSignUp);
   $(".navLinks a").click(scrollPage);
+  $(".top-arrow").click(toTopPage);
 
 
 });
